@@ -38,3 +38,15 @@ header img {
 .line:active {
     color: white;
 }
+
+.foottable {
+    margin: auto;
+}
+
+.foottable td {
+    text-align: center;
+    border: 0px solid black;
+    padding: auto;
+    width: 100px;
+    height: auto;
+}
