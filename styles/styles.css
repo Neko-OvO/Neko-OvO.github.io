@@ -1,0 +1,40 @@
+p {
+    /* 使p元素居中 */
+    text-align: center;
+}
+
+#ICO {
+    transition: transform 1s;
+    display: block;
+    margin: auto;
+}
+
+/* 鼠标放置ICO上变暗 */
+#ICO:hover {
+    filter: brightness(0.9);
+}
+
+/* 设置header图片文字不换行 */
+header {
+    white-space: nowarp;
+    text-align: center;
+    font-size: 35px;
+    font-family: Playpen Sans, ZCOOL QingKe HuangYou;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.line,
+.line:visited {
+    color: violet;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: ZCOOL QingKe HuangYou;
+}
+
+.line:hover,
+.line:active {
+    color: white;
+}
