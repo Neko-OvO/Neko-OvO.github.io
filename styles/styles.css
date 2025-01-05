@@ -39,14 +39,41 @@ header img {
     color: white;
 }
 
-.foottable {
-    margin: auto;
+footer {
+    font-size: 20px;
+    background-color: pink;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.foottable td {
-    text-align: center;
-    border: 0px solid black;
-    padding: auto;
-    width: 100px;
-    height: auto;
+footer a {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#BackTop {
+    color: violet;
+    letter-spacing: 2px;
+    font-family: ZCOOL QingKe HuangYou;
+    background-color: pink;
+    width: 80px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BackTop:hover {
+    color: white;
+    background-color: gainsboro;
 }
